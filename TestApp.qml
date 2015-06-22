@@ -20,7 +20,7 @@ import QtQuick 2.4
 
 import nl.solarteameindhoven.sdk 1.0
 
-VehicleApp {
+BCVehicleApp {
 
     Rectangle {
 
@@ -35,7 +35,7 @@ VehicleApp {
     }
 
     bccontrolbar: BCControlBar {
-        leftButton: ControlBarButton {
+        leftButton: BCControlBarButton {
             id: leftControlBarButton
 
             Rectangle {
@@ -51,7 +51,7 @@ VehicleApp {
             }
         }
 
-        rightButton: ControlBarButton {
+        rightButton: BCControlBarButton {
             id: aardAppel
 
             Rectangle {

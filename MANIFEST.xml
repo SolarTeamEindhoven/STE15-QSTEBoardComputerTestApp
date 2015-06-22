@@ -18,7 +18,7 @@
         <name>STE Test App</name>
         <description>This is a test app for the Solar TEam Eindhoven Board Computer platform.</description>
         <category>info</category>
-	<entrypoint type="qml">TestApp.qml</entrypoint>
+        <entrypoint type="qml">TestApp.qml</entrypoint>
     </App>
 </manifest>
 
